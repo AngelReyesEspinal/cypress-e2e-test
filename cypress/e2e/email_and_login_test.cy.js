@@ -1,5 +1,5 @@
-describe('empty spec', () => {
-  it('passes', () => {
+describe('Login and email test', () => {
+  it('should login and send and email', () => {
     cy.visit(Cypress.env('frontend_url'));
 
     cy.request({
